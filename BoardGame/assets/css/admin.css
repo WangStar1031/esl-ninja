@@ -1,0 +1,100 @@
+.HideItem{
+	display: none;
+}
+.ShowItem{
+	display: block;
+}
+.bgImgs{
+	width: 90px;
+	height: 60px;
+	margin: 5px;
+	background-size: cover;
+	float: left;
+}
+.playerImgs{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	background-size: cover;
+	float: left;
+}
+.gbImgs{
+	width: 100px;
+	height: 50px;
+	margin: 5px;
+	background-size: cover;
+	float: left;
+}
+.bgImgDiv, .plrImgDiv, .gbImgDiv{
+	overflow: auto;
+	max-height: 300px;
+}
+input[type="file"] {
+	display: none;
+}
+.custom-file-upload {
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+	
+}
+p span{
+	display: inline-block;
+}
+form{
+	margin-top: 10px;
+}
+table{
+	text-align: center;
+	margin: auto;
+}
+.topicList, .questionList, .gbImgDiv, .bgImgDiv, .plrImgDiv{
+	font-size: 1.5em;
+	padding: 0.2em;
+	width: 100%;
+	min-height: 300px;
+}
+.gbImgDiv, .bgImgDiv, .plrImgDiv{
+	border: 1px solid #aaa;
+}
+.topicContainer, .questionContainer, .gbImgDiv, .bgImgDiv, .playerImgs{
+	text-align: center;
+}
+.borderRect{
+	border: 2px solid red;
+}
+span{
+	top: 20px;
+	position: relative;
+	margin: 10px;
+	cursor: pointer;
+	background-color: #485aa2;
+	/*background-color: chartreuse;*/
+	/*border-radius: 10px;*/
+	color: white;
+	padding: 5px;
+}
+#answerTable td{
+	min-width: 40px;
+	height: 40px;
+	font-size: 1.5em;
+}
+.chkArea{
+	width: 25px;
+	height: 25px;
+	border: 1px solid #aaa;
+	cursor: pointer;
+	background-color: white;
+	border-radius: 50%;
+}
+.chkArea.chk{
+	background-color: red;
+}
+.delArea{
+	cursor: pointer;
+	color: #aaa;
+}
+.delArea:hover{
+	color: red;
+}

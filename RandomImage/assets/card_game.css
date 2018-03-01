@@ -1,0 +1,357 @@
+body{
+  background-color: aliceblue;
+}
+.centerAlign, .ImageEditing{
+  /*background-image: url("./img/bg-img/background-01.png");*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  vertical-align: middle;
+  height: 700px;
+  top: calc(40% - 330px);
+  border: 2px solid #485aa2;
+  padding: 20px;
+  margin: auto;
+  width: 1300px;
+  border-radius: 5px;
+}
+.stepPanel{
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 20px;
+  margin-top: -80px;
+}
+#myName{
+  font-size: 2em;
+  width: 200px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+.stepContent{
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0px;
+}
+.joinContent{
+  background-color: #5061d4;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 5px 10px 5px 10px;
+}
+.userInfo{
+  background-color: white;
+  top: -10px;
+  margin: 0 0 0 10px;
+}
+.userInfo h2{
+  padding: 0px;
+  margin: 0px;
+}
+#TopicPan{
+  border: 2px solid #485aa2;
+  width: 235px;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255,255,224,0.4);
+  /*opacity: 0.4;*/
+}
+.selected{
+  background-color: #1e90ff;
+}
+.topics, .editTopics{
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+  font-size: 1.8em;
+}
+.onlineGameScorePan{
+  position: relative;
+  width: 180px;
+  height: 55px;
+  line-height: 55px;
+  background-size: cover;
+  margin: auto;
+}
+.onlineGameScorePan table{
+  padding: 10px;
+  font-size: 1.5em;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+#gameTitle{
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+#gameTitle img{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+#closeImageEdit{
+  position: absolute;
+  font-size: 120%;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.imageGallery{
+  width: calc(100% - 300px);
+  height: calc(100% - 50px);
+  border: 2px solid #485aa2;
+  top: 15px;
+  position: relative;
+  overflow: auto;
+  padding: 5px;
+  float: left;
+  background-color: rgba(255,255,224,0.4);
+  border-radius: 5px;
+}
+.cardOperation{
+  float: left;
+  padding: 5px;
+}
+.imgGalleryTags{
+  width: 110px;
+  height: 130px;
+  margin: auto;
+  float: left;
+}
+.checkAll{
+  width: 7em;
+}
+.checkImg0{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.checkImg{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: auto;
+  top: -35px;
+  left: 10px;
+  border-radius: 50%;
+}
+.imgTags{
+  width: 100px;
+  height: 75px;
+  background: white;
+  border: 2px solid #485aa2;
+  border-radius: 5px;
+}
+.FullScore{
+  margin: 20px;
+  width: 180px;
+}
+#topicContainer{
+  position: relative;
+  height: 125px;
+  width: 125px;
+  overflow: auto;
+}
+#editTopicContainer{
+  position: relative;
+  height: 125px;
+  /*width: 125px;*/
+  overflow: auto;
+}
+.trSelected {
+  background-color: lightgreen;
+}
+.otherScore{
+  height: 65%;
+}
+.myScore,.otherScore{
+  position: relative;
+  width: 90%;
+  background-color: lightyellow;
+  text-align: center;
+  margin: auto;
+  border: 2px solid #485aa2;
+}
+.scoreBox {
+  border: 2px solid #485aa2; width: 210px; height: 508px;
+}
+.yourturnHidden{
+  visibility: hidden;
+}
+.yourturnShow{
+  visibility: show;
+}
+#animationTag, #yourTurnTag{
+  position: absolute;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  font-size: 600%;
+}
+.SubCat{
+
+}
+#cmdSendInvite, #cmdRetry, #cmdImgEditing{
+  cursor: pointer;
+  background-color: #DF633B;
+  color: white;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+#cmdSendInvite{
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+}
+#cmdRetry{
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+}
+#cmdImgEditing{
+  background-image: url("./img/image editing.png");
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 100px;
+  height: 36px;
+}
+button{
+  width: 110px;
+}
+.topicControl{
+  background-color: lightgreen;
+  border-radius: 50%;
+  border: 2px solid #485aa2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+#upload{
+  width: 250px;
+}
+#uploadImageForm{
+  border: 2px solid #485aa2;
+}
+select, button, .scoreBox, #uploadImageForm{
+  padding: 5px;
+  margin: 5px;
+  background-color: honeydew;
+  border-radius: 5px;
+}
+option{
+  font-size: 150%;
+}
+.GameBoard{
+  margin: auto;
+  margin-top: 100px;
+}
+.centerClass{
+  text-align: center;
+}
+h1,h2,h3,h4{
+  text-align: center;
+  margin: 0px;
+}
+ h3, h4 {
+  margin: 15px;
+}
+#ScorePan{
+  width: 120px;
+  height: 60px;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  background-color: white;
+  border-radius: 10px;
+}
+#cardTable, #scoreTable, table{
+  margin: auto;
+}
+#cardTable td{
+  padding: 5px;
+  min-width: 50px;
+  min-height: 20px;
+}
+.flip-container {
+  -o-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+.flip-container.hover .flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.flip-container,
+.front,
+.back {
+  width: 120px;
+  height: 160px;
+  border-radius: 8px;
+}
+.flipper {
+  -webkit-transition: 0.3s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.3s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 0.3s;
+  -o-transform-style: preserve-3d;
+  transition: 0.3s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.front,
+.back {
+  border: 2px solid #485aa2;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.front img{
+  border-radius: 6px;
+}
+.back {
+  background-color: white;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+#scoreTable{
+  border: 2px solid #485aa2;
+  width: 95%;
+  max-height: 340px;
+  overflow: auto;
+}
+#curUsers{
+  background-color: white;
+  width: 200px;
+  height: 120px;
+  border:2px solid #485aa2;
+}
